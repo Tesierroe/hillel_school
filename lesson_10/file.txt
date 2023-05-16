@@ -1,0 +1,1 @@
+Function args_sum launched at 2023-05-16 20:58:33.533368 with result 15 

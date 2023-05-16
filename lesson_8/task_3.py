@@ -100,8 +100,8 @@ class Interface:
         first_name = self.get_valid_input("Имя: ")
         last_name = self.get_valid_input("Фамилия: ")
         phone_number = self.get_valid_input("Телефон: ")
-        record = Record(first_name, last_name, phone_number)
-        self.phone_book.remove_record(record)
+        record1 = Record(first_name, last_name, phone_number)
+        self.phone_book.remove_record(record1)
         print("Запись удалена!")
 
     def edit_record(self):

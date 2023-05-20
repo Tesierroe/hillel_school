@@ -23,7 +23,7 @@ def music():
 music()
 
 
-#####  ЧОМУ В ЦІЙ РЕАЛІЗАЦІЇ ВИПЛИВАЄ TypeError: 'NoneType' object is not callable - ???  #####
+#####  or  #####
 
 # def lets_check_the_time(func):
 #     def wrapper():
@@ -32,7 +32,7 @@ music()
 #         finish_time = time.time()
 #         delta = finish_time - start_time
 #         print(f'Function {func.__name__} was running {delta}')
-#     return wrapper()
+#     return wrapper
 #
 #
 # @lets_check_the_time

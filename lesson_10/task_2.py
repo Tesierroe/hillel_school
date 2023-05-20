@@ -7,6 +7,7 @@ def my_decorator(func):
         start_time = datetime.datetime.now()
         with open('file.txt', 'a', newline='') as file:
             file.write(f"Function {func.__name__} launched at {start_time} with result {func_result} \n")
+            file.close()
         return func_result
     return wrapper
 

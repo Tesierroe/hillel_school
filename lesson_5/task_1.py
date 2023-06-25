@@ -12,7 +12,7 @@ c = float(input("Enter c: "))
 discriminant = b ** 2 - 4 * a * c
 
 if discriminant < 0:
-    raise DiscriminantError("Discriminant is negative.")
+    raise DiscriminantError("Discriminant is negative. B should be bigger than A and C")
 else:
     x1 = (-b + math.sqrt(discriminant)) / (2 * a)
     x2 = (-b - math.sqrt(discriminant)) / (2 * a)
